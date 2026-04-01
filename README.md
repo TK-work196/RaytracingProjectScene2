@@ -1,3 +1,4 @@
+# นี่คือ Scene ที่ 2 สำหรับ Final Project
 # การตั้งค่า (Configuration Guide)
 ปรับแต่งคุณภาพของภาพผ่านไฟล์ rt_config.py:
 
@@ -30,3 +31,4 @@ python main.py
 
 นาย ธันยธรณ์ เกศเมตตา 6710404986 <br>
 นางสาว จิรัชญา นนทนารักษ์ 6710404901# RaytracingScene1
+# RaytracingProjectScene2
