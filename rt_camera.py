@@ -2,8 +2,8 @@ import taichi as ti
 import numpy as np
 from rt_config import width, height, vec3
 
-look_from = vec3(0.0, 15.0, 35.0)
-look_at = vec3(0.0, 0.0, 0.0)
+look_from = vec3(0.0, 2.0, 15.0)
+look_at = vec3(0.0, 2.0, 0.0)
 vup = vec3(0.0, 1.0, 0.0)
 fov = 60.0
 

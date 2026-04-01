@@ -12,6 +12,7 @@ class Sphere:
     radius: ti.f32
     color: vec3
     emission: vec3
+    mat_type: ti.i32
 
 @ti.dataclass
 class Quad:
@@ -23,10 +24,6 @@ class Quad:
     mat_type: ti.i32  
 
 pixels = ti.Vector.field(3, dtype=ti.f32, shape=(width, height))
-spheres = Sphere.field(shape=2)   
 
-texture_res = (512, 512)
-ball_texture = ti.Vector.field(3, dtype=ti.f32, shape=texture_res)
-building_texture = ti.Vector.field(3, dtype=ti.f32, shape=texture_res)
-
-quads = Quad.field(shape=237)
+spheres = Sphere.field(shape=150)   
+quads = Quad.field(shape=1)
