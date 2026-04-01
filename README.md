@@ -25,10 +25,9 @@ pip install taichi numpy Pillow
 ```Bash
 python main.py
 ```
-รูปภาพจะถูกบันทึกในชื่อ football_court_final.png
+รูปภาพจะถูกบันทึกในชื่อ ball_scatter_scene.png
 
 # จัดทำโดย
 
 นาย ธันยธรณ์ เกศเมตตา 6710404986 <br>
-นางสาว จิรัชญา นนทนารักษ์ 6710404901# RaytracingScene1
-# RaytracingProjectScene2
+นางสาว จิรัชญา นนทนารักษ์ 6710404901
